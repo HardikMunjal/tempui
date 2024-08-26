@@ -1,0 +1,272 @@
+/*!******************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./component/DynamicTable/DynamicTable.module.css ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************/
+/* components/DynamicTable.module.css */
+.DynamicTable_tableWrapper__pCcfZ {
+  padding: 20px;
+}
+
+.DynamicTable_filters__aKpn2 {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 15px;
+}
+
+.DynamicTable_filterGroup__bWkCY {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.DynamicTable_filterGroup__bWkCY label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.DynamicTable_filterSelect__3OKqt {
+  padding: 5px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  width: 100%;
+}
+
+.DynamicTable_searchBar__mq12Q {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.DynamicTable_table__KcwNY {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.DynamicTable_table__KcwNY th,
+.DynamicTable_table__KcwNY td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  cursor: pointer;
+}
+
+.DynamicTable_table__KcwNY th {
+  position: sticky;
+  top: 0;
+  background-color: #f9f9f9;
+  cursor: pointer;
+}
+
+.DynamicTable_editButton__Cwnuh {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.DynamicTable_pagination__dbMtQ {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.DynamicTable_pageButton__jkh7d {
+  margin: 0 5px;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: white;
+}
+
+.DynamicTable_pageButton__jkh7d:hover {
+  background-color: #f0f0f0;
+}
+
+.DynamicTable_active__nuZ9v {
+  background-color: #4caf50;
+  color: white;
+  border-color: #4caf50;
+}
+
+/*!************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./component/EditModal/EditModal.module.css ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************/
+/* components/EditModal.module.css */
+.EditModal_modal__zo1Xi {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    max-width: 500px;
+    max-height: 80vh; /* Ensures the modal doesn't exceed the viewport height */
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden; /* Hide overflow on the modal itself */
+  }
+  
+  .EditModal_overlay__7YcqP {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .EditModal_modalContent__C8HQc {
+    max-height: 60vh; /* Adjust this value to control the height */
+    overflow-y: auto; /* Enable vertical scrolling when content exceeds the max-height */
+  }
+  
+  .EditModal_formGroup__KiCu7 {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column; /* Aligns label and input vertically */
+  }
+  
+  .EditModal_label__v0f45 {
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .EditModal_input__dlNOm {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #f9f9f9;
+  }
+  
+  .EditModal_input__dlNOm:focus {
+    border-color: #4caf50;
+    background-color: #fff;
+    outline: none;
+  }
+  
+  .EditModal_buttonGroup__L_6NG {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 15px;
+  }
+  
+  .EditModal_saveButton__uoy3L {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .EditModal_saveButton__uoy3L:hover {
+    background-color: #45a049;
+  }
+  
+  .EditModal_cancelButton__CAyCx {
+    background-color: #f44336;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  .EditModal_cancelButton__CAyCx:hover {
+    background-color: #e41e1e;
+  }
+  
+/*!*************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./app/grid/user/user.module.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************/
+.user_childtable__pVQQv {
+    width: 100%; /* Ensures the table respects the parent's width */
+    overflow-x: auto;
+  }
+/*!***********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./app/grid/workspace/workspace.module.css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************/
+.workspace_childtable__igoxb {
+    width: 100%; /* Ensures the table respects the parent's width */
+    overflow-x: auto;
+  }
+/*!*****************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./app/grid/object/object.module.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************/
+.object_childtable__LxAyl {
+    width: 100%; /* Ensures the table respects the parent's width */
+    overflow-x: auto;
+  }
+/*!**********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./app/styles/Home.module.css ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************/
+.Home_container__UZ9hw {
+    max-width: 100%;
+    max-height: 100%; /* or a specific px/em/rem value */
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    overflow-x: auto; /* or overflow: auto; */
+    white-space: nowrap;
+  }
+  
+  .Home_heading__HowbG {
+    text-align: center;
+    color: #333;
+    font-size: 2rem;
+  }
+  
+  .Home_tabs__vb7mX {
+    padding: 10px 20px;
+    justify-content: space-around;
+    margin: 30px 20px 20px 20px;
+  }
+  
+  .Home_tabButton__7OmFa {
+    margin: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .Home_tabButton__7OmFa:hover {
+    background-color: #ddd;
+  }
+  
+  .Home_activeTab__Hm_UB {
+    background-color: #333;
+    color: white;
+  }
+  
+  .Home_tabContent__70RHW {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fafafa;
+  }
+
+  .Home_logoutButton__Bh9aj {
+    background-color: #0070f3;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.Home_logoutButton__Bh9aj:hover {
+    background-color: #005bb5;
+}
+  
